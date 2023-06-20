@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#game-board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.cell {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #37bc49;
+}
+
+.food {
+  background-color: #d32f2f;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4c6ef5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f59d0;
+}
